@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    color: white;
+    font-family:monospace;
+}
+
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+.logo{
+    width: 40%;
+
+}
+.logo>img{
+    height: 40px;
+    width: 100px;
+    margin-left: 100px;
+}
+.general{
+    /* height: 50px; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 50px;
+    font-size: 18px;
+    
+}
+.genitem{
+    opacity: 0.7;
+    transition-duration: 400ms;
+}
+.genitem:hover{
+    opacity: 1;
+}
+button{
+    width: 90px;
+    height: 40px;
+    color: black;
+    /* border: 1px solid white; */
+    background-color: white;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+.content{
+    height: 600px;
+    width: 80%;
+    margin: 1px auto;
+    margin-top: 80px;
+}
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+}
+.searchbar>h1{
+    color: rgb(78, 78, 78);
+}
+.searchbar>input{
+    padding: 5px;
+    border: 1px solid rgb(144, 143, 143);
+    font-size: 15px;
+    color: black;
+}
+.element{
+    height: 1200px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.elementitem{
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    transition-duration: 0.5s;
+}
+.first{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.first>h2{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.elementitem:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px black;
+}
+.second{
+    background-color: rgb(242, 242, 242);
+}
+.second>p{
+    color: black;
+    text-align: center;
+}
+.second>img{
+    height: 120px;
+    width: 130px;
+    margin: 20px 45px 5px 25px;
+}
+.small>img{
+    height: 80px;
+    width: 90px;
+}
