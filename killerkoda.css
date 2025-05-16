@@ -370,10 +370,28 @@ a {
 .footer{
     height: 40rem;
     background-color: black;
-    margin-top: 20rem;
+    margin-top: 40rem;
+    color: white;
+    display: flex;
+    /* justify-content: space-around; */
+
 }
-.footer>img{
+.footer-first, .footer-second, .footer-third{
+    border: 2px solid white;
+}
+ul{
+    padding-left: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 5rem;
+    text-align: left;
+}
+
+
+.footer-third i{
+    color: white;
+}
+.footer-first>img{
     height: 7rem;
     width: 7rem;
-    margin: 2rem 0 0 6rem;
 }
