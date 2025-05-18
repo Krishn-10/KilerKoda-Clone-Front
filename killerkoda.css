@@ -376,21 +376,23 @@ a {
     /* justify-content: space-around; */
 
 }
+.footer-first{
+    
+}
 .footer-first, .footer-second, .footer-third{
     border: 2px solid white;
 }
+.footer-second, .footer-third{
+    padding-top: 3rem;
+}
 ul{
     padding-left: 0px;
-    text-decoration: none;
+    /* text-decoration: none; */
     list-style-type: none;
     margin-top: 5rem;
     text-align: left;
 }
 
-
-.footer-third i{
-    color: white;
-}
 .footer-first>img{
     height: 7rem;
     width: 7rem;
