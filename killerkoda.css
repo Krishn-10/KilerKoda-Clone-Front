@@ -1,9 +1,11 @@
 * {
     margin: 0px;
     color: white;
-    font-family: monospace;
+    font-family: Outfit,sans-serif;
 }
-
+div{
+    unicode-bidi: isolate;
+}
 .nav {
     height: 70px;
     width: 100%;
@@ -80,8 +82,9 @@ a {
 }
 
 .content {
-    height: 1250px;
-    width: 82%;
+    height: 80%;
+    /* width: 82%; */
+    padding: 0 10rem 0 10rem;
     margin: 1px auto;
     margin-top: 80px;
 }
@@ -103,13 +106,14 @@ a {
 }
 
 .element {
-    height: 1250px;
+    box-sizing: border-box;
+    gap: 10px 10px;
+    height: 80%;
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    /* gap: 10px; */
     
 }
 
@@ -142,7 +146,10 @@ a {
     vertical-align: center;
     
 }
-
+.first img{
+    /* height: ; */
+    width: 90px;
+}
 .first>h2 {
     margin-top: 15px;
     margin-bottom: 40px;
@@ -329,58 +336,28 @@ a {
     margin-top: 6rem;
     margin-bottom: 0.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
-    height: 40rem;
+    height: 90%;
     background-color: black;
     margin-top: 40rem;
     color: white;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
+    padding-right: 20rem;
+}
 
-}
 .footer-first{
-    
+    margin: 2rem 0 0 5rem;
 }
-.footer-first, .footer-second, .footer-third{
-    border: 2px solid white;
+.footer-second, .footer-third{
+    margin: 5rem 0 0 20rem;
+}
+.footer-second ul, .footer-third ul{
+    /* padding-top: 0.7rem; */
+    margin-top: 3.5rem;
+}
+.footer li{
+    margin-bottom: 2rem;
 }
 .footer-second, .footer-third{
     padding-top: 3rem;
@@ -389,11 +366,21 @@ ul{
     padding-left: 0px;
     /* text-decoration: none; */
     list-style-type: none;
-    margin-top: 5rem;
+    margin-top: 3rem;
     text-align: left;
+    font-size: 0.9rem;
+}
+.footer-first ul{
+    margin-top: 1.5rem;
 }
 
+.footer-third i{
+    color: white;
+}
 .footer-first>img{
     height: 7rem;
     width: 7rem;
+}
+.footer h2{
+    font-weight: 100;
 }
