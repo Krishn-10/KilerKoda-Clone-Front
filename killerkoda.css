@@ -84,7 +84,7 @@ a {
 .content {
     height: 80%;
     /* width: 82%; */
-    padding: 0 10rem 0 10rem;
+    padding: 0 5rem 0 5rem;
     margin: 1px auto;
     margin-top: 80px;
 }
@@ -121,7 +121,7 @@ a {
     width: 200px;
     height: 200px;
     /* border: 1px solid black; */
-    border-radius: 5px;
+    /* border-radius: 5px; */
     transition-duration: 0.5s;
     background-color: #f5f5f5;
     text-align: center;
